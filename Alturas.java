@@ -1,20 +1,31 @@
 import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class Alturas {
     public static void main(String[] arg) {
-        double[] alturas = new double[10];
+        int size = sizeArray();
+        double[] alturas = new double[size];
 
-        alturas = rellenar();
+        alturas = rellenar(size);
 
         alturaMedia(alturas);
         mayorAltura(alturas);
         menorAltura(alturas);
     }
 
-    public static double[] rellenar() {
-        double[] n = new double[10];
+    public static int sizeArray() {
+        Scanner sc = new Scanner(System.in);
+        int size;
 
-        for (int i = 0; i <= 9; i++) {
+        size = sc.nextInt();
+
+        return size;
+    }
+
+    public static double[] rellenar(int size) {
+        double[] n = new double[size];
+
+        for (int i = 0; i < n.length; i++) {
             n[i] = Math.random() * 2.5 + 1;
         }
 
