@@ -51,5 +51,4 @@ public class InvertirNumeros {
             System.out.println(n[i]);
         }
     }
-
 }
