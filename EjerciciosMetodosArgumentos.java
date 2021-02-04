@@ -3,6 +3,8 @@ import java.util.Scanner;
 // Crea un metodo que te pida tu nombre y lo introduzcas por teclado y lanza un saludo personalizado para ese nombre.
 // Crea un metodo para pedir la edad y visualizarla;
 // Crea un metodo que visualize el siguiente mensaje: Pues "nombre1" con tus "edad" no se como "nombre2" no te mando a tomar por saco hace "años" años
+// Crea un metodo para rellenar un array de string con tus personas favoritas, al menos 5, y luego crea otro metodo al que por argumentos le pases esas personas
+//      y elige de forma aleatoria la mas favorita de todas. 
 
 public class EjerciciosMetodosArgumentos{
 
