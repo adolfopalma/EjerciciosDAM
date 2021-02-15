@@ -8,8 +8,6 @@ import java.util.Scanner;
 //mete un peso inicial(x)si es mayor de 90 solo tienes un dia libre, y si es menor tienes viernes y sabado.
 
 public class DietaAleatoria{
-
-
     public static void main(String []args){
         String[] vegetales = {"lechuga","tomate","canonigos","brocoli","coliflor","mazorca"};
         String[] carnes = {"Pechuga de pollo","entrecotte","lomico","hamburguesa","salchichicas","solomillico"};
@@ -17,7 +15,6 @@ public class DietaAleatoria{
         
         dietaAleatoria(vegetales, carnes, pescados);
     }
-
 
     public static void dietaAleatoria(String[]vegetales,String[]carnes,String[]pescados){
         String dia;
@@ -30,5 +27,4 @@ public class DietaAleatoria{
 
         System.out.println("tu dieta para el " + dia + " es de primero " + vegetal + " de segundo " + carne + " y de tercero " + pescado);
     }
-
 }
