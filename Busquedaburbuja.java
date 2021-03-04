@@ -27,7 +27,6 @@ public class Busquedaburbuja {
             System.out.print(vector[i] + " ");
         }
         System.out.print("\n");
-
     }
 
     public static int[] rellenarNumeros(int tamanio) {
