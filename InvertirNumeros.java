@@ -1,4 +1,4 @@
-import java.util.Scanner;
+jimport java.util.Scanner;
 
 public class InvertirNumeros {
 

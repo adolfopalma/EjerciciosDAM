@@ -12,7 +12,6 @@ public class SumaDeMatrices {
 
         matriz1 = rellenaMatriz(guardaFila, guardaColumna);
         matriz2 = rellenaMatriz(guardaFila, guardaColumna);
-        // todo
         suma = sumaMatrices(matriz1, matriz2);
 
         visualiza(matriz1);
